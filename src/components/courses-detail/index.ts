@@ -1,0 +1,10 @@
+export { CourseHeader } from './CourseHeader';
+export { CourseSidebar } from './CourseSidebar';
+export { CourseOverview } from './CourseOverview';
+export { CourseContent } from './CourseContent';
+export { CourseDetails } from './CourseDetails';
+export { CourseInstructor } from './CourseInstructor';
+export { CourseReviews } from './CourseReviews';
+export { CourseFAQ } from './CourseFAQ';
+export { RelatedCourses } from './RelatedCourses';
+export { OtherCourses } from './OtherCourses'; 

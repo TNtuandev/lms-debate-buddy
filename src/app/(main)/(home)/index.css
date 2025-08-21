@@ -1,0 +1,30 @@
+.home-selection {
+    background-image: url("/images/home/img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.text {
+    animation: textRotation 8s linear infinite;
+}
+
+@keyframes textRotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 58px;
+}
+
+
+.box-shadow-hover {
+    &:hover {
+        box-shadow: 0 40px 80px -8px rgba(145, 158, 171, 0.24);
+    }
+}

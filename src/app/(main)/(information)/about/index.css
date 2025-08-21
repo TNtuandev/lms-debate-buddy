@@ -1,0 +1,21 @@
+.section-header {
+    background-image: url("/images/about/banner.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.boxShadow {
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12), 0px 0px 2px rgba(145, 158, 171, 0.2);
+}
+
+.player-wrapper {
+    position: relative;
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

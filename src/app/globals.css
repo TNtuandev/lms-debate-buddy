@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+    --primary-50: #fafcff;
+    --secondary-50: #fffdfb;
+    --secondary-100: #ffe8d2;
+    --secondary-200: #ffd7ac;
+    --secondary-300: #ffc887;
+    --secondary-400: #ffbc65;
+    --secondary-500: #ffb145;
+    --secondary-600: #ff9820;
+    --secondary-700: #f97207;
+    --secondary-800: #dd4e02;
+    --secondary-900: #b73206;
+    --primary-100: #cddfff;
+    --primary-200: #a2bfff;
+    --primary-300: #7a9efc;
+    --primary-400: #537bf7;
+    --primary-500: #2f57ef;
+    --primary-600: #1440df;
+    --primary-700: #002cbf;
+    --primary-800: #001c9f;
+    --primary-900: #001080;
+    --tertiary-50: #fffbfe;
+    --tertiary-100: #f8d6f2;
+    --tertiary-200: #f1b1e3;
+    --tertiary-300: #e88fd2;
+    --tertiary-400: #dd6ebe;
+    --tertiary-500: #d14ea8;
+    --tertiary-600: #c03494;
+    --tertiary-700: #a9207e;
+    --tertiary-800: #8c1067;
+    --tertiary-900: #66054d;
+
+    /*Primary*/
+    --primary-contrast: #ffffff;
+    --teruary-main: #d14ea8;
+    --primary: var(--primary-500);
+    --infor: #03a9f4;
+    --success: #4caf50;
+    --error-main: #f44336;
+    --warning-dark: #f57c00;
+    --neutral: #f4f6f8;
+
+    /*Text*/
+    --text-secondary: #637381;
+    --text-primary: #212b36;
+}
+
+@theme inline {
+    --color-primary-contrastText: rgba(0, 0, 0, 0.87);
+    --color-primary-lighter: var(--primary-100);
+    --color-secondary: var(--text-secondary);
+    --color-secondary-contrastText: rgba(0, 0, 0, 0.87);
+    --color-secondary-lighter: var(--secondary-100);
+    --color-secondary-light: var(--secondary-300);
+    --color-secondary-main: var(--secondary-500);
+    --color-secondary-dark: var(--secondary-700);
+    --color-secondary-darker: var(--secondary-900);
+    --color-primary-light: var(--primary-300);
+    --color-primary-main: var(--primary-500);
+    --color-primary-dark: var(--primary-700);
+    --color-primary-darker: var(--primary-900);
+    --color-tertiary-contrastText: rgba(0, 0, 0, 0.87);
+    --color-tertiary-lighter: var(--tertiary-100);
+    --color-tertiary-light: var(--tertiary-300);
+    --color-tertiary-main: var(--tertiary-500);
+    --color-tertiary-dark: var(--tertiary-700);
+    --color-tertiary-darker: var(--tertiary-900);
+    --color-transparent-_primary: rgba(47, 87, 239, 0.08);
+    --color-transparent-_secondary: rgba(255, 177, 69, 0.08);
+    --color-transparent-_tertiary: rgba(209, 78, 168, 0.08);
+    --color-shadow-color-primary-color: rgba(47, 87, 239, 0.24);
+    --color-shadow-color-secondary-color: rgba(255, 177, 69, 0.24);
+    --color-shadow-color-tertiary-color: rgba(209, 78, 168, 0.24);
+    --color-infor: var(--infor);
+    --color-success: var(--success);
+    --color-error-main: var(--error-main);
+    --color-info-main: var(--infor);
+    --color-warning-dark: var(--warning-dark);
+    --color-background-neutral: var(--neutral);
+}
+
+.dark {
+}
+
+@layer components {
+    .box-shadow-card {
+        box-shadow: 0px 0px 2px 0px rgba(25, 158, 171, 0.2);
+    }
+
+    .box-shadow-feedback {
+        box-shadow: 0px 16px 32px 0px rgba(145, 158, 171, 0.16);
+    }
+
+    .box-shadow-component {
+        box-shadow: 0px 12px 24px -4px rgba(25, 158, 171, 0.2);
+    }
+
+    .box-shadow-page {
+        box-shadow:
+            /* Shadow 1: soft/color */
+                0px 12px 24px -4px rgba(153, 158, 171, 0.12),
+                    /* Shadow 2: hard/color */ 0px 0px 2px 0px rgba(153, 158, 171, 0.2);
+    }
+}
+
+.custom-rate .ant-rate-star-full .anticon path,
+.custom-rate .ant-rate-star-half .anticon path {
+    fill: #facc15 !important; /* Vàng */
+}
+
+.custom-rate .ant-rate-star-zero .anticon path {
+    fill: #d1d5db !important; /* Xám Tailwind: gray-300 */
+}
+
+.see-all-course-button path {
+    color: #FFA10A !important;
+}
+
+.home-send-email-button path {
+    color: white !important;
+}
+
+.footer-icon path {
+    color: #5067FF !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 161, 10, 0.3) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFA10A !important;
+}
+
+@layer base {
+    * {
+        color: var(--text-primary);
+    }
+
+    body {
+        color: var(--text-primary);
+    }
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
