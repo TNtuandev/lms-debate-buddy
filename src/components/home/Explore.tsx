@@ -49,7 +49,7 @@ export function Explore() {
     <section className="bg-white mt-20 lg:mt-[120px] mb-20 md:mb-[120px]">
       <div className="container mx-auto px-6 lg:px-20">
         <h2 className="text-3xl md:text-5xl font-semibold text-center mb-8 md:mb-12">
-          Vì sao Funlingo là lựa chọn tốt nhất?
+          Vì sao Debate Buddy là lựa chọn tốt nhất?
         </h2>
 
         <Row gutter={[40, 40]} align="stretch">
@@ -76,7 +76,7 @@ export function Explore() {
           <Col xs={24} md={8}>
             <div className=" text-base sm:text-lg leading-relaxed h-full flex items-center">
               <p>
-                Tại Funlingo, chúng tôi tin rằng học tiếng Anh phải là một hành
+                Tại Debate Buddy, chúng tôi tin rằng học tiếng Anh phải là một hành
                 trình đầy niềm vui và hứng khởi. Chúng tôi xây dựng môi trường
                 học tập an toàn, thân thiện, nơi mỗi đứa trẻ được khuyến khích
                 khám phá và phát triển tiềm năng ngôn ngữ của mình.

@@ -25,7 +25,7 @@ const feedbacks: Feedback[] = [
     avatar: "/images/home/feedback-girl.png",
     rating: 5,
     content:
-      "Con thích đi học Funlingo lắm! Cô giáo rất vui tính và hay cho con chơi trò chơi. Con học được nhiều từ mới và hát bài 'Baby Shark' bằng tiếng Anh!",
+      "Con thích đi học Debate Buddy lắm! Cô giáo rất vui tính và hay cho con chơi trò chơi. Con học được nhiều từ mới và hát bài 'Baby Shark' bằng tiếng Anh!",
   },
   {
     name: "Khôi Nguyên",
@@ -34,7 +34,7 @@ const feedbacks: Feedback[] = [
     avatar: "/images/home/feedback-boy.png",
     rating: 5,
     content:
-      "Ở Funlingo, học tiếng Anh siêu vui luôn ạ! Con được làm bài tập nhóm với bạn bè, được xem video tiếng Anh nữa. Con muốn học mãi thôi!",
+      "Ở Debate Buddy, học tiếng Anh siêu vui luôn ạ! Con được làm bài tập nhóm với bạn bè, được xem video tiếng Anh nữa. Con muốn học mãi thôi!",
   },
   {
     name: "Mai Chi",
@@ -70,7 +70,7 @@ export default function HomepageFeedback() {
     <section className="bg-white mb-20 md:mb-[120px]">
       <div className="container mx-auto px-6 lg:px-20 text-center">
         <h2 className="text-2xl lg:text-5xl font-bold mb-4">
-          Học viên nói gì về Funlingo?
+          Học viên nói gì về Debate Buddy?
         </h2>
         <p className="text-base mb-16">
           Cùng lắng nghe những phản hồi tích cực từ học viên của chung tôi

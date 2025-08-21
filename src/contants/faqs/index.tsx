@@ -1,7 +1,7 @@
 export const FAQS_LIST = [
   {
-    question: "Funlingo là gì?",
-    answer: "Funlingo là nền tảng giáo dục trực tuyến cung cấp các khóa học kỹ năng và học thuật dành riêng cho trẻ em, với phương pháp học tập hiện đại, tương tác và phù hợp với từng độ tuổi.",
+    question: "Debate Buddy là gì?",
+    answer: "Debate Buddy là nền tảng giáo dục trực tuyến cung cấp các khóa học kỹ năng và học thuật dành riêng cho trẻ em, với phương pháp học tập hiện đại, tương tác và phù hợp với từng độ tuổi.",
   },
   {
     question: "Các khóa học phù hợp với độ tuổi nào?",

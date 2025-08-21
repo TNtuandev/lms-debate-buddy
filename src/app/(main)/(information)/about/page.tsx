@@ -69,12 +69,12 @@ function AboutPage() {
               Hiểu về chúng tôi
             </div>
             <div className="text-2xl leading-9 lg:text-3xl lg:leading-12 font-bold pb-2">
-              Tìm hiểu về nền tảng học tập Funlingo
+              Tìm hiểu về nền tảng học tập Debate Buddy
             </div>
             <div className="text-secondary">
-              Funlingo là nền tảng học tập trực tuyến hiện đại, mang đến
+              Debate Buddy là nền tảng học tập trực tuyến hiện đại, mang đến
               trải nghiệm giáo dục linh hoạt và hiệu quả cho học sinh ở mọi lứa
-              tuổi. Với triết lý &#34;học mọi lúc, mọi nơi&#34;, Funlingo nổi bật
+              tuổi. Với triết lý &#34;học mọi lúc, mọi nơi&#34;, Debate Buddy nổi bật
               với những tính năng sau:
             </div>
             <div className="grid grid-cols-1 w-5/6 pt-8 gap-8">
@@ -111,7 +111,7 @@ function AboutPage() {
               Xây dựng sự nghiệp và nâng cao cuộc sống của bạn
             </div>
             <div className="text-secondary">
-              Tại Funlingo, chúng tôi kết hợp công nghệ hiện đại, phương
+              Tại Debate Buddy, chúng tôi kết hợp công nghệ hiện đại, phương
               pháp giảng dạy tiên tiến và sự tận tâm của đội ngũ giảng viên để
               mang đến trải nghiệm học tập linh hoạt, cá nhân hóa và hiệu quả
               cho từng học viên.

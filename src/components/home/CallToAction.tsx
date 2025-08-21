@@ -33,7 +33,7 @@ export function CallToAction() {
               </h2>
               <p className="text-base text-[#FFFFFFA3] mb-8 max-w-[500px]">
                 Tham gia cùng hơn 60.000 người dùng để thấy lợi ích của việc học
-                song ngữ, hoạt động ngoại khóa của Funlingo.
+                song ngữ, hoạt động ngoại khóa của Debate Buddy.
               </p>
             </div>
           </Col>

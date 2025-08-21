@@ -17,7 +17,7 @@ function Footer() {
               height={40}
             />
             <div className="mt-8 text-base">
-              Funlingo là nền tảng học tập trực tuyến hiện đại, mang đến trải
+              Debate Buddy là nền tảng học tập trực tuyến hiện đại, mang đến trải
               nghiệm giáo dục linh hoạt và hiệu quả cho học sinh ở mọi lứa tuổi.
             </div>
           </div>
@@ -46,7 +46,7 @@ function Footer() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <div className="text-xl font-semibold">Funlingo</div>
+              <div className="text-xl font-semibold">Debate Buddy</div>
               <Link
                 href={Routes.abouts}
                 className="md:mt-6 cursor-pointer hover:text-primary-main hover:underline"
@@ -83,14 +83,14 @@ function Footer() {
 
           <div className="flex gap-2 items-center flex-1">
             <MdEmail className="text-cyan-400 footer-icon" size={18} />
-            <div className="text-lg font-bold">funlingo@gmail.com</div>
+            <div className="text-lg font-bold">debatebuddy@gmail.com</div>
           </div>
         </div>
 
         <div className="my-8 w-full h-[1px] bg-[#919EAB3D]"></div>
         <div className="lg:flex items-center justify-between">
           <div className="text-sm">
-            2025 <span className="font-semibold">Funlingo.</span>.
+            2025 <span className="font-semibold">Debate Buddy.</span>.
           </div>
           <div className="text-zinc-400 text-sm">
             <Link

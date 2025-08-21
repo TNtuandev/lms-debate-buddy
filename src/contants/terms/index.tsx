@@ -5,7 +5,7 @@ export const TERMS_LIST = [
     title: '1. Giới thiệu',
     content: (
       <>
-        Chào mừng bạn đến với Funlingo! Bằng cách truy cập và sử dụng trang web <a href="www.amerian.study" className="underline text-primary-main cursor-pointer">www.amerian.study</a> (sau đây gọi là &#34;Website&#34;), bạn đồng ý với các điều khoản và điều kiện dưới đây.
+        Chào mừng bạn đến với Debate Buddy! Bằng cách truy cập và sử dụng trang web <a href="www.debatebuddy.com" className="underline text-[#FFA10A] cursor-pointer">www.debatebuddy.com</a> (sau đây gọi là &#34;Website&#34;), bạn đồng ý với các điều khoản và điều kiện dưới đây.
       </>
     )
   },
@@ -25,7 +25,7 @@ export const TERMS_LIST = [
         <br/>
         &#8226;&nbsp;Người dùng cam kết cung cấp thông tin chính xác và chịu trách nhiệm về bảo mật tài khoản.
         <br/>
-        &#8226;&nbsp;Funlingo có quyền tạm ngưng hoặc hủy tài khoản nếu phát hiện hành vi vi phạm.
+        &#8226;&nbsp;Debate Buddy có quyền tạm ngưng hoặc hủy tài khoản nếu phát hiện hành vi vi phạm.
       </>
     )
   },
@@ -43,7 +43,7 @@ export const TERMS_LIST = [
     title: '5. Nội dung khóa học & Bản quyền',
     content: (
       <>
-        &#8226;&nbsp;Mọi nội dung khóa học thuộc quyền sở hữu của Funlingo.
+        &#8226;&nbsp;Mọi nội dung khóa học thuộc quyền sở hữu của Debate Buddy.
         <br/>
         &#8226;&nbsp;Không được sao chép, tái phân phối, hoặc sử dụng lại nếu không có sự đồng ý bằng văn bản.
       </>
@@ -63,7 +63,7 @@ export const TERMS_LIST = [
     title: '7. Giới hạn trách nhiệm',
     content: (
       <>
-        Funlingo không chịu trách nhiệm về các lỗi phát sinh do đường truyền, phần cứng, phần mềm ngoài phạm vi kiểm soát.
+        Debate Buddy không chịu trách nhiệm về các lỗi phát sinh do đường truyền, phần cứng, phần mềm ngoài phạm vi kiểm soát.
       </>
     )
   },

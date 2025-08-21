@@ -25,7 +25,7 @@ export function Banner() {
           <Col xs={24} md={12}>
             <Image
               src="/images/home/title.png"
-              alt="Funlingo"
+              alt="Debate Buddy"
               width={232}
               height={80}
               className="mx-auto md:mx-0 mb-4 md:mb-6"

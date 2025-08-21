@@ -29,7 +29,7 @@ export const POLICY_LIST = [
     title: '3. Bảo mật thông tin',
     content: (
       <>
-        &#8226;&nbsp;Funlingo cam kết bảo mật thông tin bằng các biện pháp kỹ thuật và tổ chức phù hợp.
+        &#8226;&nbsp;Debate Buddy cam kết bảo mật thông tin bằng các biện pháp kỹ thuật và tổ chức phù hợp.
         <br/>
         &#8226;&nbsp;Chỉ nhân sự được ủy quyền mới được tiếp cận thông tin cá nhân.
       </>
